@@ -1,0 +1,21 @@
+.clicked-page {
+  background: linear-gradient(to bottom right, #632ee3, #9f62f2);
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.clicked-page-border {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.clicked-page-border::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #632ee3, #9f62f2);
+}
