@@ -1,0 +1,359 @@
+[
+  {
+    "image": "https://i.ibb.co.com/jk9Bf0c3/Notion-app-logo.png",
+    "title": "Notion AI Notes",
+    "companyName": "Moksha Labs",
+    "id": 1,
+    "description": "A minimal and smart note-taking app powered by AI. Organize your daily notes, tasks, and ideas with seamless syncing. It helps summarize long notes and generate outlines automatically. Perfect for students, writers, and productivity lovers who want clarity and focus.",
+    "size": 82,
+    "reviews": 12400,
+    "ratingAvg": 4.3,
+    "downloads": "500K+",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5xs5PLx0/19794750.png",
+    "title": "Bazaart AI Art Editor",
+    "companyName": "Bazaart Ltd.",
+    "id": 2,
+    "description": "A creative AI photo editor that lets you create stunning art, remove backgrounds, and apply aesthetic filters. Blend images, add stylish text overlays, and design social media visuals in seconds. Great for creators who want fast results with professional quality.",
+    "size": 110,
+    "reviews": 21000,
+    "ratingAvg": 4.6,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ccQN7BLv/unnamed.png",
+    "companyName": "Finory Technologies",
+    "id": 3,
+    "description": "A lightweight personal finance tracker that helps you manage daily expenses easily. View detailed analytics and insights to understand your spending habits. The app’s clean interface and cloud sync make budgeting smooth, smart, and stress-free.",
+    "size": 68,
+    "reviews": 8500,
+    "ratingAvg": 4.5,
+    "downloads": "100K+",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nsRVyF2Z/loop.png",
+    "companyName": "Loopy Apps",
+    "id": 4,
+    "description": "Track your habits, visualize your growth, and stay consistent. Loop Habit Tracker is open-source, ad-free, and easy to use. It offers graphs, reminders, and streak analysis to keep you focused on your long-term personal goals.",
+    "size": 42,
+    "reviews": 19800,
+    "ratingAvg": 4.8,
+    "downloads": "500K+",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q38TXNjL/moon.png",
+    "companyName": "Moon+ Studio",
+    "id": 5,
+    "description": "Read your favorite eBooks with advanced customization. Moon+ Reader supports EPUB, PDF, and TXT formats with multiple themes and TTS support. Its smooth scrolling and bookmarking make reading truly enjoyable on mobile.",
+    "size": 74,
+    "reviews": 34000,
+    "ratingAvg": 4.7,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 22600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XkXF8Ph3/plant.png",
+    "title": "Focus Plant",
+    "companyName": "Shikudo Studio",
+    "id": 6,
+    "description": "Turn focus time into a virtual garden. Stay productive by growing trees and plants while working or studying. Focus Plant adds a touch of calmness and reward to your daily focus sessions.",
+    "size": 97,
+    "reviews": 58000,
+    "ratingAvg": 4.6,
+    "downloads": "2M+",
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 12400 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KcCTYm9x/logo.jpg",
+    "title": "SleepTown",
+    "companyName": "SeekrTech",
+    "id": 7,
+    "description": "Build a healthy sleep schedule and get rewarded for consistency. Each night you sleep on time, a new building grows in your town. Fun, effective, and designed to improve your lifestyle one night at a time.",
+    "size": 128,
+    "reviews": 24000,
+    "ratingAvg": 4.4,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 6700 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gZTCGHnN/retro.png",
+    "title": "Retro Music Player",
+    "companyName": "Hemanth Savarala",
+    "id": 8,
+    "description": "A smooth and elegant music player built for those who appreciate simplicity. With support for lyrics, themes, and powerful EQ, Retro Music Player keeps your local library organized and visually stunning.",
+    "size": 56,
+    "reviews": 12000,
+    "ratingAvg": 4.5,
+    "downloads": "200K+",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k2hs45Lm/boosted.png",
+    "title": "Boosted: Productivity & Time Tracker",
+    "companyName": "Boosted.io",
+    "id": 9,
+    "description": "Track your time, manage projects, and analyze productivity patterns. Boosted helps you stay focused and evaluate how efficiently you’re spending your time every day. Great for freelancers and students.",
+    "size": 63,
+    "reviews": 18000,
+    "ratingAvg": 4.7,
+    "downloads": "500K+",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 9300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2myftq9/ic-launcher-main-512-clock-hands.png",
+    "title": "TimeTune Schedule Planner",
+    "companyName": "TimeTune Studio",
+    "id": 10,
+    "description": "Optimize your day with routines that really work. TimeTune lets you plan time blocks, track habits, and improve productivity using smart notifications. Its analytics help you find your ideal daily rhythm.",
+    "size": 90,
+    "reviews": 22000,
+    "ratingAvg": 4.6,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Hs84brr/aegis.png",
+    "title": "Aegis Authenticator",
+    "companyName": "Beem Development",
+    "id": 11,
+    "description": "A secure open-source 2FA authenticator that keeps your tokens encrypted. Supports import/export and biometric unlock. Perfect for privacy-conscious users who need security without cloud dependency.",
+    "size": 28,
+    "reviews": 9700,
+    "ratingAvg": 4.8,
+    "downloads": "100K+",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kpdjsk2t/infinity.png",
+    "title": "Infinity for Reddit",
+    "companyName": "Docile Alligator",
+    "id": 12,
+    "description": "A lightweight and elegant Reddit client with no ads. Infinity for Reddit offers smooth scrolling, dark mode, and an offline browsing mode. Great for users who want speed, privacy, and a customizable interface.",
+    "size": 54,
+    "reviews": 17500,
+    "ratingAvg": 4.6,
+    "downloads": "200K+",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HJMMc9Y/pass.png",
+    "title": "Enpass Password Manager",
+    "companyName": "Enpass Technologies",
+    "id": 13,
+    "description": "Store your passwords, cards, and notes securely with Enpass. Offline storage ensures your data never leaves your device. Simple, reliable, and compatible with all major platforms.",
+    "size": 82,
+    "reviews": 26000,
+    "ratingAvg": 4.5,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 15700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ycZfRcDD/plexamp-app-icon.webp",
+    "title": "Plexamp",
+    "companyName": "Plex Inc.",
+    "id": 14,
+    "description": "A beautiful, audiophile-grade music player for Plex users. Enjoy gapless playback, loudness leveling, and intelligent mixes. Plexamp transforms your library into a sonic experience.",
+    "size": 96,
+    "reviews": 19000,
+    "ratingAvg": 4.7,
+    "downloads": "500K+",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1YhZ8jSH/logo-1.png",
+    "title": "Daylio Journal",
+    "companyName": "Habitics",
+    "id": 15,
+    "description": "A micro-diary app that lets you record moods and activities in seconds. Track mental well-being through patterns, graphs, and mood history. Perfect for anyone building mindfulness or tracking emotions.",
+    "size": 52,
+    "reviews": 150000,
+    "ratingAvg": 4.8,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 9400 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 105000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VYZWtydG/ticktick.png",
+    "title": "TickTick: To-Do & Planner",
+    "companyName": "Appest Inc.",
+    "id": 16,
+    "description": "Manage tasks, create to-do lists, and boost focus with the Pomodoro timer. TickTick combines simplicity with smart features like habit tracking, calendar integration, and cloud sync.",
+    "size": 71,
+    "reviews": 200000,
+    "ratingAvg": 4.7,
+    "downloads": "5M+",
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9400 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 111600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2kcx3zz/Deepstash-Logo.png",
+    "title": "Deepstash",
+    "companyName": "Deepstash Inc.",
+    "id": 17,
+    "description": "Deepstash is a knowledge-sharing platform where you discover bite-sized ideas, insights, and self-improvement tips curated from books, articles, and podcasts. It's perfect for curious minds who want to learn something new every day without feeling overwhelmed by long content.",
+    "size": 54,
+    "reviews": 112000,
+    "ratingAvg": 4.6,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 72700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5X12BSJ0/acoda.png",
+    "title": "Acode - Code Editor",
+    "companyName": "DeadBrains",
+    "id": 18,
+    "description": "Acode is a lightweight but powerful code editor for Android that lets you edit HTML, CSS, JavaScript, and text files directly on your phone or tablet. It supports syntax highlighting, live preview, and GitHub integration — perfect for developers who want to code on the go or make quick fixes while away from their computer.",
+    "size": 52,
+    "reviews": 98000,
+    "ratingAvg": 4.6,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 8100 },
+      { "name": "4 star", "count": 21500 },
+      { "name": "5 star", "count": 61100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hRDwHKf0/Joplin-logo.png",
+    "title": "Joplin: Notes & To-Do",
+    "companyName": "Laurent Cozic",
+    "id": 19,
+    "description": "Joplin is an open-source note-taking and to-do app that supports Markdown and end-to-end encryption. Whether you're writing detailed research notes, managing project ideas, or syncing between devices, Joplin provides a secure and flexible workspace for both personal and professional use.",
+    "size": 87,
+    "reviews": 47000,
+    "ratingAvg": 4.8,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 9400 },
+      { "name": "5 star", "count": 31200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GzjXszp/memorigi.png",
+    "title": "Memorigi: To-Do List & Planner",
+    "companyName": "Memorigi",
+    "id": 20,
+    "description": "Memorigi is a visually stunning task manager and daily planner that helps you organize life with color-coded projects and smart reminders. Its simple design, cloud sync, and progress visualization make planning not only productive but also satisfying and motivating.",
+    "size": 79,
+    "reviews": 126000,
+    "ratingAvg": 4.6,
+    "downloads": "1M+",
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 79400 }
+    ]
+  }
+]
