@@ -37,6 +37,7 @@
   },
   {
     "image": "https://i.ibb.co.com/ccQN7BLv/unnamed.png",
+    "title": "Finory Expense Manager",
     "companyName": "Finory Technologies",
     "id": 3,
     "description": "A lightweight personal finance tracker that helps you manage daily expenses easily. View detailed analytics and insights to understand your spending habits. The app’s clean interface and cloud sync make budgeting smooth, smart, and stress-free.",
@@ -54,6 +55,7 @@
   },
   {
     "image": "https://i.ibb.co.com/nsRVyF2Z/loop.png",
+    "title": "Loop Habit Tracker",
     "companyName": "Loopy Apps",
     "id": 4,
     "description": "Track your habits, visualize your growth, and stay consistent. Loop Habit Tracker is open-source, ad-free, and easy to use. It offers graphs, reminders, and streak analysis to keep you focused on your long-term personal goals.",
@@ -71,6 +73,7 @@
   },
   {
     "image": "https://i.ibb.co.com/q38TXNjL/moon.png",
+    "title": "Moon+ Reader",
     "companyName": "Moon+ Studio",
     "id": 5,
     "description": "Read your favorite eBooks with advanced customization. Moon+ Reader supports EPUB, PDF, and TXT formats with multiple themes and TTS support. Its smooth scrolling and bookmarking make reading truly enjoyable on mobile.",

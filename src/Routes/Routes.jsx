@@ -3,7 +3,8 @@ import MainLayout from "../Layouts/MainLayout";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
-import ErrorBoundary from "../Pages/ErrorPage";
+import ErrorBoundary from "../Pages/ErrorBoundary";
+import AppDetails from "../Pages/App Details/AppDetails";
 
 
  const router = createBrowserRouter([
@@ -23,6 +24,10 @@ import ErrorBoundary from "../Pages/ErrorPage";
         {
             path: '/intallation',
             Component: Installation,
+        },
+        {
+            path: '/appdetails/:id',
+            Component: AppDetails,
         }
     ]
   },
