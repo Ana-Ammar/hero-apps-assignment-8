@@ -1,11 +1,72 @@
-import useAppData from "../Hooks/useAppData";
-import { getDataFromLs } from "../Utilities/Utility";
+import { useState } from "react";
+import { getDataFromLs, removeItemFromLs } from "../Utilities/Utility";
+import InstalledApp from "./InstalledApp";
 
 const Installation = () => {
-//   const [appData] = useAppData();
+  const [filteredData, setFilteredData] = useState(getDataFromLs());
+//   const [loading, setLoading] = useState(false)
 
-const installedApp = getDataFromLs()
-console.log(installedApp)
+
+  const handleUninstallBtn = (clickedId) => {
+    removeItemFromLs(clickedId);
+    setFilteredData(getDataFromLs());
+  };
+
+
+//   sort by download
+const sortByDownloads = (value) => {
+
+    if(value === 'asc-order') {
+        const sortedByAsc = [...filteredData].sort((a, b) => {
+            
+            let convertA = parseFloat(a.downloads)
+            let convertB = parseFloat(b.downloads)
+
+            if(a.downloads.includes('M')) {
+                convertA = convertA * 1000000;
+            }
+            else if (a.downloads.includes('K')) {
+                convertA = convertA * 1000;
+            }
+
+            if(b.downloads.includes('M')) {
+                convertB = convertB * 1000000;
+            }
+            else if (b.downloads.includes('K')) {
+                convertB = convertB * 1000;
+            }
+
+            return convertB - convertA;
+        })
+        setFilteredData(sortedByAsc)
+    }
+
+    if(value === 'dsc-order') {
+        const sortedByDsc = [...filteredData].sort((a, b) => {
+            
+            let convertA = parseFloat(a.downloads)
+            let convertB = parseFloat(b.downloads)
+
+            if(a.downloads.includes('M')) {
+                convertA = convertA * 1000000;
+            }
+            else if (a.downloads.includes('K')) {
+                convertA = convertA * 1000;
+            }
+
+            if(b.downloads.includes('M')) {
+                convertB = convertB * 1000000;
+            }
+            else if (b.downloads.includes('K')) {
+                convertB = convertB * 1000;
+            }
+
+            return convertA - convertB;
+        })
+        setFilteredData(sortedByDsc)
+    }
+}
+
 
 
 
@@ -18,9 +79,31 @@ console.log(installedApp)
         Explore All Trending Apps on the Market developed by us
       </h4>
 
-       <div className="md:flex justify-between items-center">
-        <h4 className="text-center text-[#001931] font-bold text-2xl mb-4 md:mb-0">({installedApp.length}) Apps Found</h4>
+      <div className="flex justify-between items-center">
+        <h4 className=" text-[#001931] font-bold text-xl md:text-2xl md:mb-0">
+          ({filteredData.length}) Apps Found
+        </h4>
 
+        <select
+        defaultValue={'Sort by Downloads'}
+        onChange={(e) => sortByDownloads(e.target.value)}
+         className="select-sm select w-fit"
+
+        >
+          <option disabled={true}>Sort by Downloads</option>
+          <option value={'asc-order'}>High-Low</option>
+          <option value={'dsc-order'}>Low-High</option>
+        </select>
+      </div>
+
+      <div className="mt-4">
+        {filteredData.map((app) => (
+          <InstalledApp
+            handleUninstallBtn={handleUninstallBtn}
+            key={app.id}
+            app={app}
+          ></InstalledApp>
+        ))}
       </div>
     </div>
   );

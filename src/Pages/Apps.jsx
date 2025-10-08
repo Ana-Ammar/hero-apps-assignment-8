@@ -1,9 +1,10 @@
 import { Suspense, useState } from "react";
 import useAppData from "../Hooks/useAppData";
 import AppShow from "../Pages/TrendingApp.jsx/AppShow"
+import LoadingSpiner from "./LoadingSpiner";
 
 const Apps = () => {
-    const [appData] = useAppData()
+    const [appData , loading] = useAppData()
     const [search, setSearch] = useState('')
 
     const convertedSearch = search.trim().toLocaleLowerCase()
@@ -47,12 +48,14 @@ const Apps = () => {
            placeholder="Search" />
         </label>
       </div>
-
+        
+      {loading ? <LoadingSpiner></LoadingSpiner> : 
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         { 
             searchedValue.map(app => <AppShow key={app.id} app={app}></AppShow>)
         }
       </div>
+      }
 
     </div>
   );

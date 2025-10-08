@@ -18,4 +18,10 @@ const addItemToLs = (data) => {
 } 
 
 
-export {getDataFromLs, addItemToLs}
+const removeItemFromLs = (id) => {
+    const storedData = getDataFromLs()
+    const filteredItems = storedData.filter(d => d.id !== id)
+    localStorage.setItem('installed', JSON.stringify(filteredItems)) 
+}
+
+export {getDataFromLs, addItemToLs, removeItemFromLs}
