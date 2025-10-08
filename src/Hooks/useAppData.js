@@ -6,9 +6,10 @@ const useAppData = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState();
 
-  
+
   useEffect(() => {
-    axios("./data.json")
+    setLoading(true)
+    axios.get("../data.json")
       .then((data) => setAppData(data.data))
       .catch((err) => setError(err))
       .finally(() => setLoading(false));

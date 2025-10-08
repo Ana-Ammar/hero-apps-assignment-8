@@ -64,8 +64,8 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <NavLink to="/" className="clicked-page text-xl font-bold flex items-center gap-1">
-        <img src={logo} className="w-10"></img>
+        <NavLink to="/" className="clicked-page md:text-xl md:font-bold flex items-center gap-1">
+        <img src={logo} className="w-7 md:w-10"></img>
           HERO.IO
         </NavLink>
       </div>

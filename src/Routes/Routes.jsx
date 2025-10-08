@@ -27,6 +27,7 @@ import AppDetails from "../Pages/App Details/AppDetails";
         },
         {
             path: '/appdetails/:id',
+            loader: () => fetch("/data.json"),
             Component: AppDetails,
         }
     ]

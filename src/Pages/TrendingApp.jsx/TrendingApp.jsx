@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 import useAppData from "../../Hooks/useAppData";
-import TrendingAppShow from "./TrendingAppShow";
+import AppShow from "./AppShow";
 
 const TrendingApp = () => {
   const [appData] = useAppData();
@@ -17,7 +17,7 @@ const TrendingApp = () => {
 
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
         {trendingApp.map((app) => (
-          <TrendingAppShow key={app.id} app={app}></TrendingAppShow>
+          <AppShow key={app.id} app={app}></AppShow>
         ))}
       </div>
 
