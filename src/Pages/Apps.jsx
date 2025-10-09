@@ -40,7 +40,7 @@ const Apps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </h4>
 
-      <div className="md:flex justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <h4 className="text-center text-[#001931] font-bold text-2xl mb-4 md:mb-0">
           ({searchedData.length}) Apps Found
         </h4>
