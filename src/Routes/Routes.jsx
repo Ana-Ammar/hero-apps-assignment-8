@@ -14,7 +14,7 @@ import { getDataFromLs } from "../Utilities/Utility";
     path: "/",
     Component: MainLayout,
     errorElement: <ErrorBoundary></ErrorBoundary>,
-    hydrateFallbackElement: <h1>Error 200</h1>,
+    hydrateFallbackElement: <h1>Hero App Hub is Starting...</h1>,
     children: [
         {
             index: true,

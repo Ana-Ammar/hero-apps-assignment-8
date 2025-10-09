@@ -1,6 +1,4 @@
 import { useNavigate } from 'react-router';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
 import AppError from '../assets/App-Error.png'
 
 const ErrorForApp = () => {
