@@ -14,16 +14,16 @@ import { getDataFromLs } from "../Utilities/Utility";
     path: "/",
     Component: MainLayout,
     errorElement: <ErrorBoundary></ErrorBoundary>,
-    hydrateFallbackElement: <h1>Hello</h1>,
+    hydrateFallbackElement: <h1>Error 200</h1>,
     children: [
         {
             index: true,
-            loader: () => fetch('../data.json'),
+            loader: () => fetch('/data.json'),
             Component: Home
         },
         {
             path: '/apps',
-            loader: () => fetch('../data.json'),
+            loader: () => fetch('/data.json'),
             Component: Apps,
         },
         {

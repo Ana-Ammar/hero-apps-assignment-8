@@ -13,7 +13,7 @@ const Installation = () => {
 
   const handleUninstallBtn = (clickedId) => {
     Swal.fire({
-      icon: "Warning",
+      icon: "success",
       title: "Uninstalled",
       text: "App removed successfully!",
       footer: `<a href="/apps">If you want to Reinstall Click Here</a>`,

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AppShow from "../Pages/TrendingApp.jsx/AppShow";
 
-import { useLoaderData, useNavigation } from "react-router";
+import { NavLink, useLoaderData, useNavigation } from "react-router";
 import SearchLoading from "./TrendingApp.jsx/SearchLoading";
 
 const Apps = () => {
@@ -10,7 +10,6 @@ const Apps = () => {
   const [searchedData, setSeachedData] = useState(appData);
   const [loading, setLoading] = useState(false);
   const [search, setSearch] = useState("");
-
 
   useEffect(() => {
     setLoading(true);
@@ -78,9 +77,16 @@ const Apps = () => {
       ) : (
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
           {searchedData.length === 0 ? (
-            <h1 className="text-gray-500 font-medium md:text-xl text-center mt-6">
-              No app Found
-            </h1>
+            <div className="col-span-4 flex flex-col justify-center items-center gap-6">
+              <h1 className=" text-gray-500 font-bold md:text-2xl mt-6">
+                No app Found
+              </h1>
+              <NavLink
+                to="/apps"
+                className="btn btn-sm md:btn-md bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">
+                Show Apps
+              </NavLink>
+            </div>
           ) : (
             searchedData.map((app) => (
               <AppShow key={app.id} app={app}></AppShow>
