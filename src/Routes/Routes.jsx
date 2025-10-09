@@ -6,6 +6,7 @@ import Installation from "../Pages/Installation";
 import ErrorBoundary from "../Pages/ErrorBoundary";
 import AppDetails from "../Pages/App Details/AppDetails";
 import ErrorForApp from "../Pages/ErrorForApp";
+import { getDataFromLs } from "../Utilities/Utility";
 
 
  const router = createBrowserRouter([
@@ -13,17 +14,21 @@ import ErrorForApp from "../Pages/ErrorForApp";
     path: "/",
     Component: MainLayout,
     errorElement: <ErrorBoundary></ErrorBoundary>,
+    hydrateFallbackElement: <h1>Hello</h1>,
     children: [
         {
             index: true,
-            Component: Home,
+            loader: () => fetch('../data.json'),
+            Component: Home
         },
         {
             path: '/apps',
+            loader: () => fetch('../data.json'),
             Component: Apps,
         },
         {
             path: '/intallation',
+            loader: () => getDataFromLs(),
             Component: Installation,
         },
         {

@@ -10,15 +10,15 @@ const Footer = () => {
         <img src={logo} className="w-10"></img>
           HERO.IO
         </NavLink>
-        <p>Providing Best App Development Service since 2002</p>
+        <p>Providing Best App & Web Development Service since 2002</p>
         </aside>
         
         <nav>
           <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Book Sell</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Publishing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">App Development</a>
+          <a className="link link-hover">Web Development</a>
+          <a className="link link-hover">Software Development</a>
+          <a className="link link-hover">App Publishing</a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>

@@ -1,10 +1,9 @@
-import { NavLink } from "react-router";
-import useAppData from "../../Hooks/useAppData";
+import { NavLink, useLoaderData } from "react-router";
 import AppShow from "./AppShow";
 
 const TrendingApp = () => {
-  const [appData] = useAppData();
-  const trendingApp = appData.filter((app) => app.ratingAvg > 4.6);
+  const data = useLoaderData()
+  const trendingApp = data.filter((app) => app.ratingAvg > 4.6);
 
   return (
     <div className="max-w-screen-2xl mx-auto px-4 md:px-8 lg:px-12 mt-10 md:mt-16 lg:mt-20 mb-10 md:mb-20">
